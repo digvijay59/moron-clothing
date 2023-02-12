@@ -1,0 +1,620 @@
+<html>
+    <title>
+        FLOPKART-eCART(development)
+    </title>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href=" https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+        <link rel="stylesheet" href=" https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="style2.css">
+        
+    </head>
+    <body id="page-top">
+        
+
+
+        <header class="header" id="header">
+            <div class="container" id="container">
+                
+                <div class="row">
+                    <div class="ten columns">
+                        <a href="#page-top">
+                        <img id="logo" src="logo.png" style="height: 80px; width: 8 0px;">
+                        </a>
+                    </div>
+                    <div class="two columns u-pull-right">
+                        <ul>
+                            <li class="submenu">
+                                <img src="cart.png" id="cart-img">
+                                <div id="cart">
+                                    <table id="list-cart" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Image</th>
+                                                <th>Name</th>
+                                                <th>Prize</th>
+                                                <th>Qty</th>
+                                                <th>Size</th>
+                                                <th>Remove</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                                                                                   
+                                       </tbody>
+                                    </table>
+
+                                    <form class="forminfo">
+                                        <p class="give_code">SHIPPING</p>
+
+                                        <select>
+                                            <option id=deli-options class="text-muted">Quick-Delivery- Rs 50.00</option>
+                                            <option id=deli-options class="text-muted">Standard-Delivery- RS 5.00</option>
+                                        </select>
+                                        
+                                        
+                                        <p class="give_code">REDEEM CODE</p>
+                                        <input class="code" type="text" placeholder="Enter your code">
+                                        <p class="give_code">EMAIL</p>
+                                        <input class="EMAIL" type="email" placeholder="examplae@gmail.com">
+
+                                        <p class="address">ADDRESS</p>
+                                        <input class="HOUSE" type="text" placeholder="HOUSE NO / FLAT NO">&nbsp;
+                                        <input class="STREET" type="text" placeholder="STREET/LOCALITY">&nbsp;
+                                        <input class="LANDMARK" type="text" placeholder="LANDMARK">&nbsp;
+                                        <input class="CITY" type="text" placeholder="CITY">&nbsp;
+                                        <input class="PINCODE" type="number" placeholder="PINCODE">&nbsp;
+                                    </form>
+
+                                    <a id="empty-cart" class="button u-full-width">Empty cart</a>
+                                    <a id="empty-cart" class="button u-full-width">Checkout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container px-4 px-lg-5 my-5" id="heading-container">
+                    <div class="text-center text-white" >
+                        <h1 class="display-4 fw-bolder" id="headtext1">Shop in style</h1>
+                        <p class="lead fw-normal text-white-50 mb-0" id="headtext2">Affordable in price and premium in quality</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+
+        <div id="list-courses">
+            <h1 id="header_courses">
+                <!--Available Items-->
+            </h1>
+            <div class="courses_container">
+
+                <div class="course_item">
+                    <div class="course_card">
+                        <img class="course_img" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iho0QqgeF4K8/v1/1000x-1.jpg">
+                        <div class="info__card">
+                            <h4>AMG GT650</h4>
+                            
+                            <p>
+                                <span class="price">₹30000000</span>
+                                <span class="discount">₹25000000</span>
+                                
+                                <div>
+                                    <span class="Qty">Quantity</span>
+                                    <span class="Size">Size</span>
+                                    
+                                    <div class="incdec">
+                                        
+                                        <input id = "qtytest" class ="num" type="number" min="0" max="10" value="0">
+                                        <select id="size" class="sizeing">
+                                            <option>S</option>
+                                            <option>M</option>
+                                            <option>L</option>
+                                            <option>XL</option>
+                                            <option>XXL</option>
+                                            <option>XXXL</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                            </p>
+                            <a href="#" class="add-cart" data-id="1"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;&nbsp;Add to cart</a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="course_item">
+                    <div class="course_card">
+                        <img class="course_img" src="https://www.cars-show.org/wp-content/uploads/2019/06/Koenigsegg-Jesko-Red-Cherry-Edition-2020-01.jpg">
+                        <div class="info__card">
+                            <h4>
+                                Koenigsegg Jesko</h4>
+                            
+                            <p>
+                                <span class="price">₹70000000</span>
+                                <span class="discount">₹56000000</span>
+                                
+                                <div>
+                                    <span class="Qty">Quantity</span>
+                                    <span class="Size">Size</span>
+                                    
+                                    <div class="incdec">
+                                        
+                                        <input id = "qtytest" class ="num" type="number" min="0" max="10" value="0">
+                                        <select id="size" class="sizeing">
+                                            <option>S</option>
+                                            <option>M</option>
+                                            <option>L</option>
+                                            <option>XL</option>
+                                            <option>XXL</option>
+                                            <option>XXXL</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
+                                
+                            </p>
+                            <a href="#" class="add-cart" data-id="2"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;&nbsp;Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course_item">
+                    <div class="course_card">
+                        <img class="course_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQcUyQs5xmRdthh0hwUG-5cs3SSYspf9Gnu0g&usqp=CAU">
+                        <div class="info__card">
+                            <h4>
+                                2020 Chevrolet Corvette </h4>
+                            
+                            <p>
+                                <span class="price">₹20000000</span>
+                                <span class="discount">₹19000000</span>
+                                <div>
+                                    <span class="Qty">Quantity</span>
+                                    <span class="Size">Size</span>
+                                    
+                                    <div class="incdec">
+                                        
+                                        <input id = "qtytest" class ="num" type="number" min="0" max="10" value="0">
+                                        <select id="size" class="sizeing">
+                                            <option>S</option>
+                                            <option>M</option>
+                                            <option>L</option>
+                                            <option>XL</option>
+                                            <option>XXL</option>
+                                            <option>XXXL</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <a href="#" class="add-cart" data-id="3"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;&nbsp;Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course_item">
+                    <div class="course_card">
+                        <img class="course_img" src="https://thumbor.forbes.com/thumbor/trim/299x201:2851x1638/fit-in/711x400/smart/https://specials-images.forbesimg.com/imageserve/5d37046395e0230008f64edf/0x0.jpg">
+                        <div class="info__card">
+                            <h4>Mustang Selby GT500</h4>
+                            
+                            <p>
+                                <span class="price">₹1000000</span>
+                                <span class="discount">₹9000000</span>
+                                <div>
+                                    <span class="Qty">Quantity</span>
+                                    <span class="Size">Size</span>
+                                    
+                                    <div class="incdec">
+                                        
+                                        <input id = "qtytest" class ="num" type="number" min="0" max="10" value="0">
+                                        <select id="size" class="sizeing">
+                                            <option>S</option>
+                                            <option>M</option>
+                                            <option>L</option>
+                                            <option>XL</option>
+                                            <option>XXL</option>
+                                            <option>XXXL</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <a href="#" class="add-cart" data-id="4"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;&nbsp;Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course_item">
+                    <div class="course_card">
+                        <img class="course_img" src="https://www.drivespark.com/bikes-photos/models/450x350/390-duke_1515499621.jpg/3/x.pagespeed.ic.LTIMr1oZwj.jpg">
+                        <div class="info__card">
+                            <h4>Duke 300</h4>
+                            
+                            <p>
+                                <span class="price">₹200000</span>
+                                <span class="discount">₹1000000</span>
+                                <div>
+                                    <span class="Qty">Quantity</span>
+                                    <span class="Size">Size</span>
+                                    
+                                    <div class="incdec">
+                                        
+                                        <input id = "qtytest" class ="num" type="number" min="0" max="10" value="0">
+                                        <select id="size" class="sizeing">
+                                            <option>S</option>
+                                            <option>M</option>
+                                            <option>L</option>
+                                            <option>XL</option>
+                                            <option>XXL</option>
+                                            <option>XXXL</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <a href="#" class="add-cart" data-id="5"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;&nbsp;Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course_item">
+                    <div class="course_card">
+                        <img class="course_img" src="https://images-na.ssl-images-amazon.com/images/I/617OW8TPOWL._SL1000_.jpg">
+                        <div class="info__card">
+                            <h4>Yamaha Pitstop</h4>
+                            
+                            <p>
+                                <span class="price">₹2000000</span>
+                                <span class="discount">₹15000000</span>
+                                <div>
+                                    <span class="Qty">Quantity</span>
+                                    <span class="Size">Size</span>
+                                    
+                                    <div class="incdec">
+                                        
+                                        <input id = "qtytest" class ="num" type="number" min="0" max="10" value="0">
+                                        <select id="size" class="sizeing">
+                                            <option>S</option>
+                                            <option>M</option>
+                                            <option>L</option>
+                                            <option>XL</option>
+                                            <option>XXL</option>
+                                            <option>XXXL</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <a href="#" class="add-cart" data-id="6"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;&nbsp;Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course_item">
+                    <div class="course_card">
+                        <img class="course_img" src="https://images.carandbike.com/bike-images/medium/hero/splendor-plus/hero-splendor-plus.webp?v=6">
+                        <div class="info__card">
+                            <h4>Hero splender</h4>
+                            
+                            <p>
+                                <span class="price">₹50000</span>
+                                <span class="discount">₹25000</span>
+                                <div>
+                                    <span class="Qty">Quantity</span>
+                                    <span class="Size">Size</span>
+                                    
+                                    <div class="incdec">
+                                        
+                                        <input id = "qtytest" class ="num" type="number" min="0" max="10" value="0">
+                                        <select id="size" class="sizeing">
+                                            <option>S</option>
+                                            <option>M</option>
+                                            <option>L</option>
+                                            <option>XL</option>
+                                            <option>XXL</option>
+                                            <option>XXXL</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <a href="#" class="add-cart" data-id="7"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;&nbsp;Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course_item">
+                    <div class="course_card">
+                        <img class="course_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_0-dBUMtnwTHf2k4GUE7yiIKbWY_SMqTDkw&usqp=CAU">
+                        <div class="info__card">
+                            <h4>Kawasaki Ninja</h4>
+                            
+                            <p>
+                                <span class="price">₹30000000</span>
+                                <span class="discount">₹25000000</span>
+                                <div>
+                                    <span class="Qty">Quantity</span>
+                                    <span class="Size">Size</span>
+                                    
+                                    <div class="incdec">
+                                        
+                                        <input id = "qtytest" class ="num" type="number" min="0" max="10" value="0">
+                                        <select id="size" class="sizeing">
+                                            <option>S</option>
+                                            <option>M</option>
+                                            <option>L</option>
+                                            <option>XL</option>
+                                            <option>XXL</option>
+                                            <option>XXXL</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <a href="#" class="add-cart" data-id="8"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;&nbsp;Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course_item">
+                    <div class="course_card">
+                        <img class="course_img" src="https://media.wired.com/photos/5e73e00cff08eb0008ee30c3/191:100/w_1280,c_limit/Gear-Feature-08_galaxys20_cloud_blue_front.jpg">
+                        <div class="info__card">
+                            <h4>Samsung galaxy S20</h4>
+                            
+                            <p>
+                                <span class="price">₹100000</span>
+                                <span class="discount">₹99000</span>
+                                <div>
+                                    <span class="Qty">Quantity</span>
+                                    <span class="Size">Size</span>
+                                    
+                                    <div class="incdec">
+                                        
+                                        <input id = "qtytest" class ="num" type="number" min="0" max="10" value="0">
+                                        <select id="size" class="sizeing">
+                                            <option>S</option>
+                                            <option>M</option>
+                                            <option>L</option>
+                                            <option>XL</option>
+                                            <option>XXL</option>
+                                            <option>XXXL</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <a href="#" class="add-cart" data-id="9"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;&nbsp;Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course_item">
+                    <div class="course_card">
+                        <img class="course_img" src="https://cdn.pocket-lint.com/r/s/1200x630/assets/images/149324-phones-review-review-iphone-11-pro-max-review-product-shots-image1-keant0hfcg.jpg">
+                        <div class="info__card">
+                            <h4>Iphone 11 pro</h4>
+                            
+                            <p>
+                                <span class="price">₹200000</span>
+                                <span class="discount">₹190000</span>
+                                <div>
+                                    <span class="Qty">Quantity</span>
+                                    <span class="Size">Size</span>
+                                    
+                                    <div class="incdec">
+                                        
+                                        <input id = "qtytest" class ="num" type="number" min="0" max="10" value="0">
+                                        <select id="size" class="sizeing">
+                                            <option>S</option>
+                                            <option>M</option>
+                                            <option>L</option>
+                                            <option>XL</option>
+                                            <option>XXL</option>
+                                            <option>XXXL</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <a href="#" class="add-cart" data-id="10"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;&nbsp;Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course_item">
+                    <div class="course_card">
+                        <img class="course_img" src="https://upload.wikimedia.org/wikipedia/commons/3/34/Nokia_3310_3G_%2820180116%29.jpg">
+                        <div class="info__card">
+                            <h4>Nokia 3310</h4>
+                            
+                            <p>
+                                <span class="price">₹3310</span>
+                                <span class="discount">₹3310</span>
+                                <div>
+                                    <span class="Qty">Quantity</span>
+                                    <span class="Size">Size</span>
+                                    
+                                    <div class="incdec">
+                                        
+                                        <input id = "qtytest" class ="num" type="number" min="0" max="10" value="0">
+                                        <select id="size" class="sizeing">
+                                            <option>S</option>
+                                            <option>M</option>
+                                            <option>L</option>
+                                            <option>XL</option>
+                                            <option>XXL</option>
+                                            <option>XXXL</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <a href="#" class="add-cart" data-id="11"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;&nbsp;Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course_item">
+                    <div class="course_card">
+                        <img class="course_img" src="https://images.indianexpress.com/2020/05/vivo-feature.jpg">
+                        <div class="info__card">
+                            <h4>Vivo v19</h4>
+                            
+                            <p>
+                                <span class="price">₹37000</span>
+                                <span class="discount">₹30000</span>
+                                <div>
+                                    <span class="Qty">Quantity</span>
+                                    <span class="Size">Size</span>
+                                    
+                                    <div class="incdec">
+                                        
+                                        <input id = "qtytest" class ="num" type="number" min="0" max="10" value="0">
+                                        <select id="size" class="sizeing">
+                                            <option>S</option>
+                                            <option>M</option>
+                                            <option>L</option>
+                                            <option>XL</option>
+                                            <option>XXL</option>
+                                            <option>XXXL</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <a href="#" class="add-cart" data-id="12"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;&nbsp;Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course_item">
+                    <div class="course_card">
+                        <img class="course_img" src="https://assets.croma.com/medias/sys_master/images/images/hb6/hea/8958286594078/227181_pjpeg.jpg">
+                        <div class="info__card">
+                            <h4>HP ULTRON</h4>
+                            
+                            <p>
+                                <span class="price">₹70000</span>
+                                <span class="discount">₹50000</span>
+                                <div>
+                                    <span class="Qty">Quantity</span>
+                                    <span class="Size">Size</span>
+                                    
+                                    <div class="incdec">
+                                        
+                                        <input id = "qtytest" class ="num" type="number" min="0" max="10" value="0">
+                                        <select id="size" class="sizeing">
+                                            <option>S</option>
+                                            <option>M</option>
+                                            <option>L</option>
+                                            <option>XL</option>
+                                            <option>XXL</option>
+                                            <option>XXXL</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <a href="#" class="add-cart" data-id="13"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;&nbsp;Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course_item">
+                    <div class="course_card">
+                        <img class="course_img" src="https://i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/inspiron_notebooks/15_5590/global_spi/ng/notebook-inspiron-15-5590-silver-campaign-hero-504x350-ng.psd?fmt=jpg&wid=570&hei=400">
+                        <div class="info__card">
+                            <h4>Dell inspirational</h4>
+                            
+                            <p>
+                                <span class="price">₹100000</span>
+                                <span class="discount">₹90000</span>
+                                <div>
+                                    <span class="Qty">Quantity</span>
+                                    <span class="Size">Size</span>
+                                    
+                                    <div class="incdec">
+                                        
+                                        <input id = "qtytest" class ="num" type="number" min="0" max="10" value="0">
+                                        <select id="size" class="sizeing">
+                                            <option>S</option>
+                                            <option>M</option>
+                                            <option>L</option>
+                                            <option>XL</option>
+                                            <option>XXL</option>
+                                            <option>XXXL</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <a href="#" class="add-cart" data-id="14"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;&nbsp;Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course_item">
+                    <div class="course_card">
+                        <img class="course_img" src="https://cdn.vox-cdn.com/thumbor/U9bVQsVE1qeyj04xJ-YAPuVheBw=/0x0:2040x1351/1200x800/filters:focal(857x513:1183x839)/cdn.vox-cdn.com/uploads/chorus_image/image/65169322/VLS_2759.0.jpg">
+                        <div class="info__card">
+                            <h4>Asus light</h4>
+                            
+                            <p>
+                                <span class="price">₹300000</span>
+                                <span class="discount">₹250000</span>
+                                <div>
+                                    <span class="Qty">Quantity</span>
+                                    <span class="Size">Size</span>
+                                    
+                                    <div class="incdec">
+                                        
+                                        <input id = "qtytest" class ="num" type="number" min="0" max="10" value="0">
+                                        <select id="size" class="sizeing">
+                                            <option>S</option>
+                                            <option>M</option>
+                                            <option>L</option>
+                                            <option>XL</option>
+                                            <option>XXL</option>
+                                            <option>XXXL</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <a href="#" class="add-cart" data-id="15"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;&nbsp;Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="course_item">
+                    <div class="course_card">
+                        <img class="course_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRLZjUB68oERR6ak5lN9xUuK8-GGgfyFTyn3w&usqp=CAU">
+                        <div class="info__card">
+                            <h4>Acer Ryzen</h4>
+                            
+                            <p>
+                                <span class="price">₹400000</span>
+                                <span class="discount">₹300000</span>
+                                <div>
+                                    <span class="Qty">Quantity</span>
+                                    <span class="Size">Size</span>
+                                    
+                                    <div class="incdec">
+                                        
+                                        <input id = "qtytest" class ="num" type="number" min="0" max="10" value="0">
+                                        <select id="size" class="sizeing">
+                                            <option>S</option>
+                                            <option>M</option>
+                                            <option>L</option>
+                                            <option>XL</option>
+                                            <option>XXL</option>
+                                            <option>XXXL</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <a href="#" class="add-cart" data-id="16"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;&nbsp;Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>  
+        </div>
+        <script src="javascript.js"></script>
+    </body>
+</html>

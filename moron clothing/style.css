@@ -1,0 +1,277 @@
+body{
+  overflow-x: hidden;
+  background: rgb(240, 237, 237);
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+form{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.two columns u-pull-right{
+  float: right;
+}
+#heading-container{
+  width: 50%;
+  bottom: 150px;
+}
+select{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+#size{
+  font-size: small;
+  position: relative;
+  left: 30%;
+  bottom: auto;
+}
+.num{
+  font-size: small;
+  font-weight: bold;
+}
+.item-desc{
+  height: 10px;
+}
+#desc2{
+  bottom: 30px;
+}
+p.give_code,.address{
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+input.code{
+  width: 100px;
+}
+
+input.CITY,.STREET,.PINCODE,.LANDMARK,.HOUSE{
+  width: 300px;
+  float: 5px;
+}
+.info-label{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 12px;
+  display: inline-block;
+  
+}
+.size{
+  left: 60px;
+  position: relative;
+}
+.size,.Qty{
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+}
+#headtext1{
+  font-size: 60px;
+}
+#headtext2{
+  font-size: 20px;
+}
+.info__card h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+header {
+  padding: 20px 0 0 0;
+  background: linear-gradient(to bottom, rgb(255, 0, 0) 0%, rgba(220, 53, 69, 0.8) 100%);
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+}
+.row{
+  position: relative;
+  width: 100%;
+  align-items: center;
+  left: 10px;
+}
+
+.logo__container {
+  width: 50%;
+  margin-left: 20px;
+}
+#logo{
+  zoom: 200%;
+}
+.cart__container {
+  width: 50%;
+  float: right;
+  left: 30px;
+}
+.cart__container ul{
+  float: right;
+  margin-right: 30px;
+}
+.submenu {
+  position: relative;
+  list-style-type: none;
+  width: 50%;
+  
+}
+.submenu:hover{
+  zoom: 110%;
+}
+.submenu #cart{
+  display: none;
+  
+}
+#cart-img{
+  position: relative
+}
+.submenu:hover #cart{
+  display: block;
+  position:absolute;
+  right:0;
+  top:100%;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  min-height: 400px;
+  min-width: 300px;
+  opacity: 100%;
+}
+.empty {
+  padding: 10px;
+  background-color: crimson;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+.delete-course {
+  
+  border-radius: 50%;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.delete-course:hover{
+  color: red;
+}
+#list-courses {
+  padding: 30px 0;
+}
+.header_courses{
+  margin-bottom: 30px;
+}
+.courses_container{
+  margin-top: 30px;
+  display: grid;
+  grid-gap: 25px;
+	max-width: 1080px;
+	margin: 0 auto;
+  padding: 0 10px;
+}
+.course_item{
+  border: 1px solid rgba(0,0,0,0.25);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.card__img, .course_img{
+  height: 200px;
+  width: 100%;
+}
+.info__card{
+  padding: 10px 10px;
+  position: relative;
+  height: 180px;
+}
+.info__card *{
+  margin-bottom: 10px;
+}
+.price{
+  text-decoration: line-through;
+  color: red;
+}
+.discount{
+  color: black;
+  font-weight: bold;
+  float: right;
+  font-size: 1.25em;
+  position: relative;
+  right: 30px;
+}
+.add-cart{
+  background: rgb(220, 53, 69);
+  padding: 5px 10px;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+  position: absolute;
+  bottom: 0;
+  
+}
+.add-cart:hover{
+  background: #008a33;
+  color: white;
+}
+.fa{
+      margin-bottom: 0;
+}
+
+.incdec{
+  padding-top: 10px;
+  height: 20px;
+  width: 100px;
+  color: rgb(255, 255, 255);
+  
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.incdec span{
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+.incdec span.num{
+  color: black;
+  font-weight: bold;
+  pointer-events: none;
+}
+.incdec span.minus{
+  font-size: smaller;
+  background: rgb(220, 53, 69);
+}
+.incdec span.plus{
+  font-size: smaller;
+  background-color: rgb(220, 53, 69);
+}
+.incdec span.plus:hover{
+  background-color: green;
+  border-radius: 5px;
+}
+.incdec span.minus:hover{
+  background-color: green;
+  border-radius: 7px;
+}
+
+@media (min-width: 750px) {
+  header {
+    text-align: left;
+  }
+}
+
+@media (min-width: 472px) and (max-width: 767px) {
+  .courses_container{
+    grid-template-columns: 1fr 1fr;
+   }
+ }
+ @media all and (min-width: 768px) {
+  .courses_container{
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+ }
+ @media all and (min-width: 949px) {
+   .courses_container{
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
+ }
+ 
+ 
